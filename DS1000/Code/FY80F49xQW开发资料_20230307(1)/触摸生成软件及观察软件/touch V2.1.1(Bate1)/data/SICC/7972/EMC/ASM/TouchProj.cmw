@@ -1,0 +1,16 @@
+[PROJECT]
+Version=2.03.24
+Compile=0
+Device=CMS79F726
+OptValue=-local,-asmfile,+asm,-speed,+space,-debug
+RuntimeValue=
+WarningValue=-9
+config=E7FF,FFFF,
+[FILE]
+SourceFile=USER_MAIN_PROGRAM.asm
+HeadFile=Touch_Kscan_Const.h
+HeadFile=Touch_Kscan_Library.h
+LibraryFile=CMS_CheckTouch_79F72x_Check_V1.01.lib
+LibraryFile=CMS_CheckTouch_79F72x_V1.01.lib
+OtherFile=SendTouchKey_79F72x.h
+OtherFile=SendTouchKey_79F72x.asm

@@ -1,0 +1,10 @@
+Output: Test Point Report
+Type  : Test Points
+From  : Project [PCB_Project1.PrjPCB]
+   Generated File[Fabrication Testpoint Report for DBS3100»ô¶û_V0.5.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:46:15 On 2024/10/24

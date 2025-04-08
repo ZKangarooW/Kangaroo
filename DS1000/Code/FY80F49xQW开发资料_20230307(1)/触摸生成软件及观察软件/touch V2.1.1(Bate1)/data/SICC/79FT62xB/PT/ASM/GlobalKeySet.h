@@ -1,0 +1,57 @@
+#if	C_KCOUNT == 1
+	#pragma	ram	0x20-0x25
+	#pragma	ram	0xA0-0xA4
+#else
+#if	C_KCOUNT == 2
+	#pragma	ram	0x20-0x2B
+	#pragma	ram	0xA0-0xA9
+#else
+#if	C_KCOUNT == 3
+	#pragma	ram	0x20-0x31
+	#pragma	ram	0xA0-0xAE
+#else
+#if	C_KCOUNT == 4
+	#pragma	ram	0x20-0x37
+	#pragma	ram	0xA0-0xB3
+#else
+#if	C_KCOUNT == 5
+	#pragma	ram	0x20-0x3D
+	#pragma	ram	0xA0-0xB8
+#else
+#if	C_KCOUNT == 6
+	#pragma	ram	0x20-0x43
+	#pragma	ram	0xA0-0xBD
+#else
+#if	C_KCOUNT == 7
+	#pragma	ram	0x20-0x49
+	#pragma	ram	0xA0-0xC2
+#else
+#if	C_KCOUNT == 8
+	#pragma	ram	0x20-0x4F
+	#pragma	ram	0xA0-0xC7
+#else
+#if	C_KCOUNT == 9
+	#pragma	ram	0x20-0x55
+	#pragma	ram	0xA0-0xCC
+#else
+#if	C_KCOUNT == 10
+	#pragma	ram	0x20-0x5B
+	#pragma	ram	0xA0-0xD1
+#else
+#if	C_KCOUNT == 11
+	#pragma	ram	0x20-0x61
+	#pragma	ram	0xA0-0xD6
+#else
+	#pragma	ram	0x20-0x67
+	#pragma	ram	0xA0-0xDB
+#endif
+#endif
+#endif
+#endif
+#endif
+#endif
+#endif
+#endif
+#endif
+#endif
+#endif

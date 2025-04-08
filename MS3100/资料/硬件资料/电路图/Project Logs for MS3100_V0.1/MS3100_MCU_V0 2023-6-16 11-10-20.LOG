@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=DIR Pin=U1-18
+Removed Pin From Net: NetName=PWM Pin=U1-19
+Removed Pin From Net: NetName=FG Pin=U1-30
+Added Pin To Net: NetName=FG Pin=U1-27
+Added Pin To Net: NetName=PWM Pin=U1-30
+Added Pin To Net: NetName=DIR Pin=U1-31
+Added Room: Name=MS3100_MCU_V0.1

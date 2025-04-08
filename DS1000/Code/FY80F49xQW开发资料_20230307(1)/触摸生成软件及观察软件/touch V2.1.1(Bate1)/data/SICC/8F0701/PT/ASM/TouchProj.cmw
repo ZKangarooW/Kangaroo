@@ -1,0 +1,16 @@
+[PROJECT]
+Version=2.03.26
+Compile=0
+Device=CMS8F0701A1D828SP
+OptValue=-local,-asmfile,+asm,-speed,+space,-debug
+RuntimeValue=
+WarningValue=-9
+config=F7FF,FF3B,FFFF,
+[FILE]
+SourceFile=USER_MAIN_PROGRAM.asm
+HeadFile=Touch_Kscan_Const.h
+HeadFile=Touch_Kscan_Library.h
+LibraryFile=CheckTouch_8F0701A_Check_V1.01.lib
+LibraryFile=CheckTouch_8F0701A_V1.01.lib
+OtherFile=SendTouchKey_8F0701A.asm
+OtherFile=SendTouchKey_8F0701A.h

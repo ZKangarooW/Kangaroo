@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="0" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="STM32F030C8" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\Joanlab\HP3100\Code\V1.0\250401\HP3100\MDK-ARM\HP3100\HP3100.axf" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="Set" Address="0x20000748" Type="short" TypeID="11" Size="2" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="760" YMaxSampled="17977" YAvgSampled="3000" Offset="4" ShowInGraph="1" YOffset="-6" IsAutoConfig="0" YResolution="500" MaxValue="32767" File="D:\Joanlab\HP3100\Code\V1.0\250401\HP3100\MDK-ARM/..\USER\USER\Structs.h" DrawStyle="0" NameWithParents="Temp.Set" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Rel" Address="0x2000074A" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="-12278" YMaxSampled="3720" YAvgSampled="3386.01" Offset="6" ShowInGraph="1" YOffset="-6" IsAutoConfig="0" YResolution="500" MaxValue="32767" File="D:\Joanlab\HP3100\Code\V1.0\250401\HP3100\MDK-ARM/..\USER\USER\Structs.h" DrawStyle="0" NameWithParents="Temp.Rel" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

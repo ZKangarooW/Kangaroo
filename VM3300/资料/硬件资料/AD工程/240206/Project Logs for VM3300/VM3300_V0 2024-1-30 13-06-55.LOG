@@ -1,0 +1,19 @@
+Added Component: Designator=SMG1(SMG 0.28-4P_B)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "0.28寸4位共阳"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SEG5 Pin=SMG1-1
+Added Pin To Net: NetName=SEG4 Pin=SMG1-2
+Added Pin To Net: NetName=SEG8 Pin=SMG1-3
+Added Pin To Net: NetName=SEG3 Pin=SMG1-4
+Added Pin To Net: NetName=SEG7 Pin=SMG1-5
+Added Pin To Net: NetName=GRID4 Pin=SMG1-6
+Added Pin To Net: NetName=SEG2 Pin=SMG1-7
+Added Pin To Net: NetName=GRID3 Pin=SMG1-8
+Added Pin To Net: NetName=GRID2 Pin=SMG1-9
+Added Pin To Net: NetName=SEG6 Pin=SMG1-10
+Added Pin To Net: NetName=SEG1 Pin=SMG1-11
+Added Pin To Net: NetName=GRID1 Pin=SMG1-12
+Added Member To Class: ClassName=VM3300_V0.1 Member=Component SMG1 2841B
+Added Room: Name=VM3300_V0.1

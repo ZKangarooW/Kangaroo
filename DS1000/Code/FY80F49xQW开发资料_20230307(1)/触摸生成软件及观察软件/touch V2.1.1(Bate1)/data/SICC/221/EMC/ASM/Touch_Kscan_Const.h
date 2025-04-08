@@ -1,0 +1,42 @@
+
+#ifndef	_TOUCH_KSCAN_CONST_H_
+#define	_TOUCH_KSCAN_CONST_H_
+;----------------------------------------------------------
+;下面是触摸内部一些控制位的宏定义,勿更改
+
+DAT_STEP0	DEF			0000H
+DAT_STEP1	DEF			0008H
+DAT_STEP2	DEF			0004H
+DAT_STEP3	DEF			000CH
+DAT_STEP4	DEF			0006H
+DAT_STEP5	DEF			000EH
+
+;MCU所有按键通道定义
+C_KCHSN		DEF         0000H
+C_KCHS0		DEF         0000H
+C_KCHS1     DEF         0001H
+C_KCHS2     DEF         0002H
+C_KCHS3     DEF         0003H
+C_KCHS4     DEF         0004H
+C_KCHS5     DEF         0005H
+C_KCHS6     DEF         0006H
+C_KCHS7     DEF         0007H
+C_KCHS8     DEF         0008H
+C_KCHS9     DEF         0009H
+C_KCHS10    DEF         000AH
+C_KCHS11    DEF         000BH
+C_KCHS12    DEF         000CH
+C_KCHS13    DEF         000DH
+C_KCHS14    DEF         000EH
+C_KCHS15    DEF         000FH
+;----------------------------------------------------------
+TK_TIME0	DEF			0x00
+TK_TIME1	DEF			0x08
+TK_TIME2	DEF			0x10
+TK_TIME3	DEF			0x18
+TK_TIME4	DEF			0x20
+TK_TIME5	DEF			0x28
+TK_TIME6	DEF			0x30
+TK_TIME7	DEF			0x38
+;----------------------------------------------------------
+#endif

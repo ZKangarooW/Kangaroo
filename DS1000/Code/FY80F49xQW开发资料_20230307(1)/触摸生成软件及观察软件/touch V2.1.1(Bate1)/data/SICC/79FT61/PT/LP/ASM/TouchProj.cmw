@@ -1,0 +1,15 @@
+[PROJECT]
+Version=203
+Compile=0
+Device=CMS79FT616
+OptValue=-local,-asmfile,+asm,-speed,+space,-debug
+RuntimeValue=
+WarningValue=-9
+config=FFFD,FFFF,
+[FILE]
+SourceFile=USER_MAIN_PROGRAM.asm
+HeadFile=Touch_Kscan_Library.h
+LibraryFile=CMS_CheckTouch_79FT61x_LP_V1.01.lib
+OtherFile=GlobalKeySet.h
+OtherFile=SendTouchKey_79FT61x.asm
+OtherFile=SendTouchKey_79FT61x.h

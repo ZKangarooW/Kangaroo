@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=REC1 Old Footprint=HC-1538LD - duplicate New Footprint=HC-1538LD
+Change Component Footprint: Designator=REC2 Old Footprint=HC-1538LD - duplicate New Footprint=HC-1538LD
+Change Component Footprint: Designator=D1 Old Footprint=HC-F3-C06A - duplicate New Footprint=HC-F3-C06A
+Change Component Footprint: Designator=D2 Old Footprint=HC-F3-C06A - duplicate New Footprint=HC-F3-C06A
+Change Component Footprint: Designator=T1 Old Footprint=TH_Touch - duplicate New Footprint=TH_Touch
+Change Component Footprint: Designator=T2 Old Footprint=TH_Touch - duplicate New Footprint=TH_Touch
+Change Component Footprint: Designator=T3 Old Footprint=TH_Touch - duplicate New Footprint=TH_Touch
+Added Room: Name=VM3300_V0.1

@@ -1,0 +1,31 @@
+Load "HHM3100\\HHM3100.axf" 
+Set JLink Project File to "d:\Joanlab\JOANLAB\HHMS3100\Code\V1.0\240430\HHM3100\MDK-ARM\JLinkSettings.ini"* JLink Info: Device "STM32F103VC" selected.
+
+JLink info:
+------------
+DLL: V4.96d, compiled Jan 29 2015 11:45:37
+Firmware: J-Link V9 compiled May  7 2021 16:26:12
+Hardware: V9.40
+S/N : 99451626 
+Feature(s) : RDI, GDB, FlashDL, FlashBP, JFlash 
+
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r2p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+
+Target info:
+------------
+Device: STM32F103VC
+VTarget = 3.320V
+State of Pins: TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 6000 kHz
+
+Erase Done.Programming Done.Verify OK.Application running ...
+Flash Load finished at 16:56:30

@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=C15 Old Footprint=C 0805 New Footprint=C 0603
+Change Component Footprint: Designator=C16 Old Footprint=C 0805 New Footprint=C 0603
+Change Component Footprint: Designator=C29 Old Footprint=C 0805 New Footprint=C 0603
+Added Room: Name=VM3300_V0.1

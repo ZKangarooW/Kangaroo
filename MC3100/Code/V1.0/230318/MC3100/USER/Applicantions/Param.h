@@ -1,0 +1,30 @@
+#ifndef __PARAM_H__
+#define	__PARAM_H__
+
+#include "include.h"
+
+/**********宏定义************/
+#define FLASH_CHECK_START 0xAA
+#define FLASH_CHECK_END 0xbb
+
+/**********结构体************/
+struct _Save_Param_
+{	
+	uint8_t Flash_Check_Start;//检查是否已经初始化的开始位
+	uint8_t Flash_Check_End;//检查是否已经初始化的结束位
+	uint8_t type;//类型
+	int Speed;//速度
+	int32_t Time;//时间
+	uint8_t Speed_Rcf;//离心力
+};
+extern struct _Save_Param_ Param;
+
+/**********全局变量声明******/
+extern uint8_t Save_Param_En;//保存到Flash的标志位
+
+/**********局部变量声明******/
+/**********全局函数**********/
+void Param_Read(void);//读取硬件中的参数，判断是否更新
+void Param_Save_Overtime(float dT);//保存标志位置1，0.5s后保存
+
+#endif

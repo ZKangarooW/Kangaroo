@@ -1,0 +1,19 @@
+Change Component Footprint: Designator=U4 Old Footprint=TM1650 New Footprint=DIP40-600_MH
+Added Component: Designator=U1(STM32F030C8T6)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=3.3V Pin=U1-1
+Added Pin To Net: NetName=OSC_IN Pin=U1-5
+Added Pin To Net: NetName=OSC_OUT Pin=U1-6
+Added Pin To Net: NetName=NRST Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=3.3V Pin=U1-9
+Added Pin To Net: NetName=GND Pin=U1-23
+Added Pin To Net: NetName=3.3V Pin=U1-24
+Added Pin To Net: NetName=SWDIO Pin=U1-34
+Added Pin To Net: NetName=SWCLK Pin=U1-37
+Added Pin To Net: NetName=Beep Pin=U1-43
+Added Pin To Net: NetName=GND Pin=U1-44
+Added Pin To Net: NetName=GND Pin=U1-47
+Added Pin To Net: NetName=3.3V Pin=U1-48
+Added Member To Class: ClassName=VM3300_V0.1 Member=Component U1 STM32F030C8T6
+Added Room: Name=VM3300_V0.1

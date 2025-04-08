@@ -1,0 +1,17 @@
+{
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"files.associations": {
+		"stm32f0xx_it.h": "c",
+		"main.h": "c"
+	},
+	"[yaml]": {
+		"editor.tabSize": 4
+	},
+	"[dockercompose]": {
+		"editor.tabSize": 4
+	},
+	"editor.tabCompletion": "on",
+	"editor.detectIndentation": false,
+	"vim.report": 4
+}

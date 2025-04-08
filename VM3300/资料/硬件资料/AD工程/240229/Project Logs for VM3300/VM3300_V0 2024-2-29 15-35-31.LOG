@@ -1,0 +1,13 @@
+Added Component: Designator=REC1(HC-1538LD-W)
+Add component. Clean all parameters for all variants
+Added Component: Designator=REC2(HC-1538LD-W)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetR11_1 Pin=REC1-1
+Added Pin To Net: NetName=GND Pin=REC1-2
+Added Pin To Net: NetName=NetR17_1 Pin=REC1-3
+Added Pin To Net: NetName=NetR12_1 Pin=REC2-1
+Added Pin To Net: NetName=GND Pin=REC2-2
+Added Pin To Net: NetName=NetR18_1 Pin=REC2-3
+Added Member To Class: ClassName=VM3300_V0.1 Member=Component REC1 HC-1538LD
+Added Member To Class: ClassName=VM3300_V0.1 Member=Component REC2 HC-1538LD
+Added Room: Name=VM3300_V0.1

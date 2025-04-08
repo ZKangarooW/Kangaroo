@@ -1,0 +1,16 @@
+[PROJECT]
+Version=203
+Compile=0
+Device=CMS89F7385
+OptValue=-local,-asmfile,+asm,-speed,+space,-debug
+RuntimeValue=
+WarningValue=-9
+config=E7ED,FFBB,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,
+[FILE]
+SourceFile=USER_MAIN_PROGRAM.asm
+HeadFile=Touch_Kscan_Const.h
+HeadFile=Touch_Kscan_Library.h
+LibraryFile=CMS_CheckTouch_89F73xx_Check_V1.44.lib
+LibraryFile=CMS_CheckTouch_89F73xx_V1.44.lib
+OtherFile=SendTouchKey_89F73x.asm
+OtherFile=SendTouchKey_89F73x.h

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="0" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="STM32F030C8" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\Joanlab\WB2200\Code\V1.0\241211_1_10K\WB2200\MDK-ARM\WB2200\WB2200.axf" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="Rel" Address="0x20000220" Type="short" TypeID="11" Size="2" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="0" YMaxSampled="681" YAvgSampled="562.601" Offset="4" ShowInGraph="1" YOffset="-5" IsAutoConfig="0" YResolution="200" MaxValue="32767" File="D:\Joanlab\WB2200\Code\V1.0\241211\WB2200\MDK-ARM/..\USER\USER\Structs.h" DrawStyle="0" NameWithParents="Temp.Rel" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

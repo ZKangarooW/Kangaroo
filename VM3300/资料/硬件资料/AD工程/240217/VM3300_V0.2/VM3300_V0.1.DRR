@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: VM3300_V0.1.PcbDoc   2024/2/17  13:42:20
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : VM3300_V0.1-RoundHoles.TXT
+ASCII SlotHoles File : VM3300_V0.1-SlotHoles.TXT
+EIA File   : VM3300_V0.1.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.254mm)                                           Round             76        PTH        0.00inch (0.00mm)
+T2      32mil (0.8mm)                                             Round             24        PTH        0.00inch (0.00mm)
+T3      32mil (0.8mm)                                             Slot              3         PTH        0.00inch (0.00mm)
+T4      35mil (0.9mm)                                             Round             18        PTH        0.00inch (0.00mm)
+T5      36mil (0.914mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T6      39mil (1mm)                                               Round             6         PTH        0.00inch (0.00mm)
+T7      59mil (1.5mm)                                             Slot              6         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              137
+
+Total Processing Time (hh:mm:ss) : 00:00:00

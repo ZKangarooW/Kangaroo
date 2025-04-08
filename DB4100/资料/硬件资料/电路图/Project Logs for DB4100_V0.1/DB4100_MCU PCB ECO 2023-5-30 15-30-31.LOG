@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=U3 Old Footprint=HS3100 New Footprint=PCBComponent_1
+Added Member To Class: ClassName=DB4100_MCU Member=Component U3 HS3100
+Added Room: Name=DB4100_MCU

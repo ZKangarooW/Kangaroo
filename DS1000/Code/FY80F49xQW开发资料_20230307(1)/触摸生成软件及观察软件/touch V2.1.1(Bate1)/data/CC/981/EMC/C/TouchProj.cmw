@@ -1,0 +1,17 @@
+[PROJECT]
+Version=203
+Compile=1
+Device=CMS89F6285
+OptValue=-debug,-local,-asmfile,+asm,-speed,+space
+RuntimeValue=
+WarningValue=-9
+config=F7FF,FFAB,FFFF,FFFF,FFFF,2915,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,
+[FILE]
+SourceFile=main.c
+SourceFile=iic_soft.c
+SourceFile=REL_Sender.c
+HeadFile=TouchKeyConst.h
+HeadFile=Touch_Kscan_Library.h
+HeadFile=iic_soft.h
+HeadFile=REL_Sender.h
+LibraryFile=CheckTouchKey_EMC_6285_V2.00.lpp

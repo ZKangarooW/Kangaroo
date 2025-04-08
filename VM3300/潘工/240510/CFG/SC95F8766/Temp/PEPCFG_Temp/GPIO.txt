@@ -1,0 +1,7 @@
+[PinNumber]1[/PinNumber][UpperIndex]0[/UpperIndex][Iindex]2[/Iindex][PinName]P0.2[/PinName]
+[PinNumber]4[/PinNumber][UpperIndex]0[/UpperIndex][Iindex]2[/Iindex][PinName]P0.5[/PinName]
+[PinNumber]5[/PinNumber][UpperIndex]0[/UpperIndex][Iindex]2[/Iindex][PinName]P0.6[/PinName]
+[PinNumber]18[/PinNumber][UpperIndex]0[/UpperIndex][Iindex]2[/Iindex][PinName]P4.0[/PinName]
+[PinNumber]20[/PinNumber][UpperIndex]3[/UpperIndex][Iindex]0[/Iindex][PinName]TK1[/PinName]
+[PinNumber]21[/PinNumber][UpperIndex]3[/UpperIndex][Iindex]0[/Iindex][PinName]TK2[/PinName]
+[PinNumber]22[/PinNumber][UpperIndex]3[/UpperIndex][Iindex]0[/Iindex][PinName]TK3[/PinName]

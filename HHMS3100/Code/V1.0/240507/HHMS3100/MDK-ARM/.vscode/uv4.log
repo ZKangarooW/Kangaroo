@@ -1,0 +1,11 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\DanPianJi\Keil_v5\ARM\ARMCC\Bin'
+Build target 'HHMS3100'
+compiling Drv_PT1000.c...
+..\USER\Driver\Drv_PT1000.c(521): warning:  #940-D: missing return statement at end of non-void function "AFE_GetTemperature" 
+  }
+..\USER\Driver\Drv_PT1000.c: 1 warning, 0 errors
+linking...
+Program Size: Code=37508 RO-data=544 RW-data=180 ZI-data=25948  
+FromELF: creating hex file...
+"HHMS3100\HHMS3100.axf" - 0 Error(s), 1 Warning(s).
+Build Time Elapsed:  00:00:01

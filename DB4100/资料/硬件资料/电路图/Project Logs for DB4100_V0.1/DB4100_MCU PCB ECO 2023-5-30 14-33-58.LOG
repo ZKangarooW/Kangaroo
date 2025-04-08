@@ -1,0 +1,45 @@
+Added Component: Designator=U3(HS3100)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=COM8 Pin=U3-1
+Added Pin To Net: NetName=COM7 Pin=U3-2
+Added Pin To Net: NetName=COM7 Pin=U3-2
+Added Pin To Net: NetName=COM6 Pin=U3-3
+Added Pin To Net: NetName=COM5 Pin=U3-4
+Added Pin To Net: NetName=COM4 Pin=U3-5
+Added Pin To Net: NetName=COM3 Pin=U3-6
+Added Pin To Net: NetName=COM2 Pin=U3-7
+Added Pin To Net: NetName=COM1 Pin=U3-8
+Added Pin To Net: NetName=SEG27 Pin=U3-9
+Added Pin To Net: NetName=SEG26 Pin=U3-10
+Added Pin To Net: NetName=SEG25 Pin=U3-11
+Added Pin To Net: NetName=SEG24 Pin=U3-12
+Added Pin To Net: NetName=SEG23 Pin=U3-13
+Added Pin To Net: NetName=SEG22 Pin=U3-14
+Added Pin To Net: NetName=SEG21 Pin=U3-15
+Added Pin To Net: NetName=SEG20 Pin=U3-16
+Added Pin To Net: NetName=SEG19 Pin=U3-17
+Added Pin To Net: NetName=SEG18 Pin=U3-18
+Added Pin To Net: NetName=GND Pin=U3-19
+Added Pin To Net: NetName=SEG17 Pin=U3-20
+Added Pin To Net: NetName=SEG16 Pin=U3-21
+Added Pin To Net: NetName=SEG15 Pin=U3-22
+Added Pin To Net: NetName=SEG14 Pin=U3-23
+Added Pin To Net: NetName=SEG13 Pin=U3-24
+Added Pin To Net: NetName=SEG12 Pin=U3-25
+Added Pin To Net: NetName=SEG11 Pin=U3-26
+Added Pin To Net: NetName=SEG10 Pin=U3-27
+Added Pin To Net: NetName=SEG9 Pin=U3-28
+Added Pin To Net: NetName=SEG8 Pin=U3-29
+Added Pin To Net: NetName=SEG7 Pin=U3-30
+Added Pin To Net: NetName=SEG6 Pin=U3-31
+Added Pin To Net: NetName=SEG5 Pin=U3-32
+Added Pin To Net: NetName=SEG4 Pin=U3-33
+Added Pin To Net: NetName=SEG3 Pin=U3-34
+Added Pin To Net: NetName=SEG2 Pin=U3-35
+Added Pin To Net: NetName=SEG1 Pin=U3-36
+Added Pin To Net: NetName=GND Pin=U3-37
+Added Pin To Net: NetName=GND Pin=U3-37
+Added Pin To Net: NetName=VLED+ Pin=U3-38
+Added Pin To Net: NetName=GND Pin=U3-39
+Added Member To Class: ClassName=DB4100_MCU Member=Component U3 HS3100
+Added Room: Name=DB4100_MCU

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=WR Pin=U1-20
+Added Pin To Net: NetName=WR Pin=U1-21
+Added Pin To Net: NetName=DATA Pin=U1-20
+Added Pin To Net: NetName=DATA Pin=U3-4
+Added Net: Name=DATA
+Added Room: Name=MS3100_MCU_V0.1

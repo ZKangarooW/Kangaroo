@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GRID1 Pin=U4-1
+Removed Pin From Net: NetName=GRID3 Pin=U4-6
+Removed Pin From Net: NetName=SEG2 Pin=U4-9
+Removed Pin From Net: NetName=SEG4 Pin=U4-12
+Removed Pin From Net: NetName=SEG5 Pin=U4-13
+Removed Pin From Net: NetName=SEG6 Pin=U4-14
+Removed Pin From Net: NetName=SEG7 Pin=U4-15
+Removed Pin From Net: NetName=SEG8 Pin=U4-16
+Added Pin To Net: NetName=GRID3 Pin=U4-1
+Added Pin To Net: NetName=GRID1 Pin=U4-6
+Added Pin To Net: NetName=SEG7 Pin=U4-9
+Added Pin To Net: NetName=SEG8 Pin=U4-12
+Added Pin To Net: NetName=SEG4 Pin=U4-13
+Added Pin To Net: NetName=SEG5 Pin=U4-14
+Added Pin To Net: NetName=SEG2 Pin=U4-15
+Added Pin To Net: NetName=SEG6 Pin=U4-16
+Added Room: Name=VM3300_V0.1

@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: D:\JOANLAB\VM3300\资料\硬件资料\AD工程\240217\VM3300_V0.1.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=7.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

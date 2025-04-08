@@ -1,0 +1,75 @@
+{
+	"version": "2.0.0",
+	//每次执行都不启动一个新的控制台
+	"presentation": {
+		"reveal": "always",
+		"panel": "shared", //"new",
+		"echo": true
+	},
+	//设置环境变量
+		// "options": {
+		// 	"env": {
+		// 		//"Path": "%Path%;D:\\ProgramFiles\\MinGW64\\bin",
+		// 		"LOCAL_SRC_HOME": "${workspaceRoot}"
+		// 	}
+		// },
+    "tasks": [
+		{
+			"label": "download",
+			"type": "shell",
+			"command": "openocd",
+			"args": [
+				"-c",
+				"adapter driver jlink",
+				"-c",
+                "transport select swd",
+				"-c",
+                "adapter speed 20000",
+                "-f",
+				"target/stm32f0x.cfg",
+				"-c",
+                "init",
+                "-c",
+                "reset halt",
+                "-c",
+                "flash write_image erase ./build/${workspaceRootFolderName}.bin 0x08000000 bin",
+                "-c",
+                "verify_image ./build/${workspaceRootFolderName}.bin 0x08000000 bin",
+                "-c",
+                "reset run",
+                "-c",
+                "shutdown"
+				//"program ./build/${workspaceRootFolderName}.elf verify reset exit"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"presentation": {
+				"reveal": "silent"
+			},
+			"problemMatcher": "$gcc"
+		},
+		{
+			"label": "build",
+			"type": "shell",
+			"command": "make -j4"
+		},
+		{
+			"label": "clean",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"clean"
+			],
+			"group": "build"
+		},
+		// {
+		// 	"label": "RTT",
+		// 	"type": "shell",
+		// 	"command": "JLinkRTTClient.exe",
+		// 	"args": [],
+		// 	"problemMatcher": []
+		// }
+	]
+}

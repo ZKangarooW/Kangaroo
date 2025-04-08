@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="0" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="STM32F030C8" TargetInterface="SWD" InterfaceSpeed="12000" />
+            </JLink>
+            <ElfFile Name="/home/kangaroo/桌面/DBS3100/DBS3100/build/DBS3100.elf" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="Rel" Address="0x2000023A" Type="short" TypeID="11" Size="2" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="229" YMaxSampled="236" YAvgSampled="231.908" Offset="4" ShowInGraph="0" YOffset="0" IsAutoConfig="0" YResolution="100" MaxValue="32767" File="" Scope="1" DrawStyle="0" NameWithParents="Temp.Rel" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Rel" Address="0x20000226" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="0" YMaxSampled="833" YAvgSampled="1.75981" Offset="6" ShowInGraph="1" YOffset="-1" IsAutoConfig="0" YResolution="500" MaxValue="32767" File="" Scope="1" DrawStyle="0" NameWithParents="Speed.Rel" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

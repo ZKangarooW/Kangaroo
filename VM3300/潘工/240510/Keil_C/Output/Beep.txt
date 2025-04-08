@@ -1,0 +1,21 @@
+
+LX51 LINKER/LOCATER V4.66.93.0 - SN: K1DZC-KKSJPC
+COPYRIGHT ARM Germany GmbH 1995 - 2018
+COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\CallBackFunction.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\CompCtrlDefine.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\Ctrl_Motor.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\Ctrl_Scheduler.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\Drv_Beep.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\Drv_Infrared.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\Drv_Motor.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\Drv_Touch.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\Drv_WS2812.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\L51_BANK.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\main.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\PID.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\sc95f_gpio.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\sc95f_option.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\sc95f_pwm.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\sc95f_timer0.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\sc95f_timer1.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\sc95f_timer3.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\SCDriver_NixieTube.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\SC_Init.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\SC_it.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\Show.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\Speed.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\STARTUP.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\Structs.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\SysFunVarDefine.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\System_Init.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\TKDriver.obj},COMMON {D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Drivers\TKDriver\C\SC95F8X6X_HighSensitive_lib_T1_L_V2.1.0.LIB} TO D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\Beep BANKAREA(0x8000, 0xffff) PRINT(D:\Joanlab\JOANLAB\VM3300\潘工\240510\Keil_C\Project\..\Output\Beep.map) REMOVEUNUSED CLASSES(CODE(C:0X100-C:0X7FFF),CONST(C:0X100)) 
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _PWM_INDEPENDENTMODECONFIG/SC95F_PWM
+    CALLER1: TIMER0INTERRUPT/SC_IT
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _ICHAADJUST/SENSORMETHOD
+    CALLER1: TIMER0INTERRUPT/SC_IT
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO FUNCTION
+    NAME:    _FILTERDATADEAL/SENSORMETHOD
+    CALLER1: TIMER0INTERRUPT/SC_IT
+    CALLER2: ?C_C51STARTUP
+
+Program Size: data=37.2 xdata=978 const=93 code=13882
+LX51 RUN COMPLETE.  3 WARNING(S),  0 ERROR(S)

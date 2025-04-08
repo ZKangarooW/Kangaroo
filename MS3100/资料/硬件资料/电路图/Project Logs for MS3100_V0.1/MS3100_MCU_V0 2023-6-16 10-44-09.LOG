@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=EC2A Pin=U1-13
+Removed Pin From Net: NetName=EC2B Pin=U1-14
+Removed Pin From Net: NetName=KEY2 Pin=U1-15
+Removed Pin From Net: NetName=KEY1 Pin=U1-25
+Removed Pin From Net: NetName=EC1B Pin=U1-26
+Removed Pin From Net: NetName=EC1A Pin=U1-27
+Removed Pin From Net: NetName=WR Pin=U1-41
+Removed Pin From Net: NetName=RD Pin=U1-42
+Removed Pin From Net: NetName=CS Pin=U1-43
+Added Pin To Net: NetName=EC1A Pin=U1-13
+Added Pin To Net: NetName=EC1B Pin=U1-14
+Added Pin To Net: NetName=KEY1 Pin=U1-15
+Added Pin To Net: NetName=WR Pin=U1-20
+Added Pin To Net: NetName=RD Pin=U1-21
+Added Pin To Net: NetName=CS Pin=U1-22
+Added Pin To Net: NetName=EC2B Pin=U1-43
+Added Pin To Net: NetName=EC2A Pin=U1-45
+Added Pin To Net: NetName=KEY2 Pin=U1-46
+Added Room: Name=MS3100_MCU_V0.1

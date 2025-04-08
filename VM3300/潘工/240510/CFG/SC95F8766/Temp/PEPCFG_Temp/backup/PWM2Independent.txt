@@ -1,0 +1,14 @@
+PWM频率设置模式=True
+频率设置(Hz)=[20000]
+PWM时钟(us)=0
+PWM周期配置=[1599]
+PWM20占空比=[0]
+PWM21占空比=[0]
+PWM20波形反相=False
+PWM21波形反相=False
+PWM20独立模式使能=True
+PWM21独立模式使能=False
+PWM中断使能=0
+PWM总开关=True
+中断清理标志位=True
+$38$PWM20

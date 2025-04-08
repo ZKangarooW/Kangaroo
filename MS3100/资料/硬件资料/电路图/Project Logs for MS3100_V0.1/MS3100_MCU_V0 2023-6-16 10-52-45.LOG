@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=KEY1 Pin=U1-13
+Removed Pin From Net: NetName=EC1B Pin=U1-14
+Added Pin To Net: NetName=EC1B Pin=U1-13
+Added Pin To Net: NetName=KEY1 Pin=U1-14
+Added Room: Name=MS3100_MCU_V0.1

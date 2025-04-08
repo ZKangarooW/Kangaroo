@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=Beep Pin=U1-43
+Added Pin To Net: NetName=Beep Pin=U1-38
+Added Room: Name=VM3300_V0.1

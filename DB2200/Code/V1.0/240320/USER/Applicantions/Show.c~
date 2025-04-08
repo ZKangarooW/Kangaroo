@@ -1,0 +1,21 @@
+#include "Show.h"
+
+uint8_t  LCD_ADD[] = {0x5f, 0x06, 0x3d, 0x2f, 0x66, 0x6b, 0x7b, 0x0e, 0x7f, 0x6f};
+
+void DiaPlay_Speed(uint8_t speed)
+{
+	uint8_t Val;//用于十个取出来的数字
+	Val = speed / 10;//取出十位
+	Write_Addr_Dat_N(0x02, LCD_ADD[Val], 1);
+	Val = speed % 10;//取出个位数
+	Write_Addr_Dat_N(0x04, LCD_ADD[Val], 1);
+    Write_Addr_Dat_N(0x08, 0x70, 1);
+    Write_Addr_Dat_N(0x0a, 0xF0, 1);
+}
+
+
+
+void Show_Display(void)
+{
+	DiaPlay_Speed(23);
+}

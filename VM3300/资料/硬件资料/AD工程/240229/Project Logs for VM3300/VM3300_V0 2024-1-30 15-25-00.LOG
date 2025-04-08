@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=U5 Old Footprint=SOP8W_L New Footprint=TK8021
+Change Component Footprint: Designator=U6 Old Footprint=SOP8W_L New Footprint=TK8021
+Change Component Footprint: Designator=U7 Old Footprint=SOP8W_L New Footprint=TK8021
+Change Component Footprint: Designator=REC1 Old Footprint=SS-12D10 New Footprint=HC-1538LD
+Change Component Footprint: Designator=REC2 Old Footprint=SS-12D10 New Footprint=HC-1538LD
+Change Component Comment : Designator=U7 Old Comment=TTP2233 New Comment=TK8021
+Added Room: Name=VM3300_V0.1

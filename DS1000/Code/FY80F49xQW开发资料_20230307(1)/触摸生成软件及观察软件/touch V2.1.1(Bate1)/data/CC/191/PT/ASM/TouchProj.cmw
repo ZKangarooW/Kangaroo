@@ -1,0 +1,14 @@
+[PROJECT]
+Version=2.03.22
+Compile=0
+Device=CMS89F616B
+OptValue=-local,-asmfile,+asm,-speed,+space,-debug
+RuntimeValue=
+WarningValue=-9
+config=EFFF,2FB7,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,
+[FILE]
+SourceFile=USER_MAIN_PROGRAM.asm
+HeadFile=Touch_Kscan_Const.h
+HeadFile=Touch_Kscan_Library.h
+LibraryFile=Touch_Kscan_Library.lib
+OtherFile=GlobalKeySet.h

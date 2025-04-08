@@ -1,0 +1,33 @@
+#ifndef _SCDriver_NixieTube_H_
+#define _SCDriver_NixieTube_H_
+//<<<Use SPTML>>>
+#define SCD_NT_SEGA P24//SCD_NT_SEGA 
+#define SCD_NT_SEGA_INIT 0x0210//SCD_NT_SEGA_INIT 
+#define SCD_NT_SEGB P21//SCD_NT_SEGB 
+#define SCD_NT_SEGB_INIT 0x0202//SCD_NT_SEGB_INIT 
+#define SCD_NT_SEGC P26//SCD_NT_SEGC 
+#define SCD_NT_SEGC_INIT 0x0240//SCD_NT_SEGC_INIT 
+#define SCD_NT_SEGD P00//SCD_NT_SEGD 
+#define SCD_NT_SEGD_INIT 0x0001//SCD_NT_SEGD_INIT 
+#define SCD_NT_SEGE P01//SCD_NT_SEGE 
+#define SCD_NT_SEGE_INIT 0x0002//SCD_NT_SEGE_INIT 
+#define SCD_NT_SEGF P22//SCD_NT_SEGF 
+#define SCD_NT_SEGF_INIT 0x0204//SCD_NT_SEGF_INIT 
+#define SCD_NT_SEGG P25//SCD_NT_SEGG 
+#define SCD_NT_SEGG_INIT 0x0220//SCD_NT_SEGG_INIT 
+#define SCD_NT_SEGDP P27//SCD_NT_SEGDP 
+#define SCD_NT_SEGDP_INIT 0x0280//SCD_NT_SEGDP_INIT 
+#define SCD_NT_COM1 P32//SCD_NT_COM1 
+#define SCD_NT_COM1_INIT 0x0304//SCD_NT_COM1_INIT 
+#define SCD_NT_COM2 P31//SCD_NT_COM2 
+#define SCD_NT_COM2_INIT 0x0302//SCD_NT_COM2_INIT 
+#define SCD_NT_COM3 P30//SCD_NT_COM3 
+#define SCD_NT_COM3_INIT 0x0301//SCD_NT_COM3_INIT 
+#define SCD_NT_COM4 P33//SCD_NT_COM4 
+#define SCD_NT_COM4_INIT 0x0308//SCD_NT_COM4_INIT 
+#define SCD_NT_TYPE 0xFF//SCD_NT_TYPE 
+#define SCD_NT_TIME 4//SCD_NT_TIME 
+extern void SCD_NT_Scan();
+extern void SCD_NT_Display(unsigned char Com1,unsigned char Com2,unsigned char Com3,unsigned char Com4);
+//<<<end of SPTML>>>
+#endif

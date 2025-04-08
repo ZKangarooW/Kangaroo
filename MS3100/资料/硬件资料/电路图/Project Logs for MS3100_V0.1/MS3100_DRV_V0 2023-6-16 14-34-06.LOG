@@ -1,0 +1,7 @@
+Added Component: Designator=POWER_IN1(POWER_M)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=L_IN Pin=POWER_IN1-1
+Added Pin To Net: NetName=EGND Pin=POWER_IN1-2
+Added Pin To Net: NetName=N Pin=POWER_IN1-3
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component POWER_IN1 AC_Power
+Added Room: Name=MS3100_DRV_V0.1

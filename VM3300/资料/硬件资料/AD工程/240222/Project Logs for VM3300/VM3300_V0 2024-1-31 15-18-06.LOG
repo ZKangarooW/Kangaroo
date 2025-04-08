@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=T1 Old Footprint=TH_Touch New Footprint=TH_Touch - duplicate
+Change Component Footprint: Designator=T2 Old Footprint=TH_Touch New Footprint=TH_Touch - duplicate
+Change Component Footprint: Designator=T3 Old Footprint=TH_Touch New Footprint=TH_Touch - duplicate
+Added Room: Name=VM3300_V0.1

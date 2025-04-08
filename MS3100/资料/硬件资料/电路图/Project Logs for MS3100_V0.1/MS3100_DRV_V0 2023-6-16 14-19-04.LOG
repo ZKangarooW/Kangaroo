@@ -1,0 +1,16 @@
+Added Net: Name=3.3V
+Added Net: Name=12V
+Added Net: Name=DIR
+Added Net: Name=EGND
+Added Net: Name=FG
+Added Net: Name=GND
+Added Net: Name=L_IN
+Added Net: Name=L
+Added Net: Name=NetC12_1
+Added Net: Name=NetC12_2
+Added Net: Name=NetR17_1
+Added Net: Name=NetR18_1
+Added Net: Name=N
+Added Net: Name=PWM
+Added Class: Name=MS3100_DRV_V0.1
+Added Room: Name=MS3100_DRV_V0.1

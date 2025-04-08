@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Driver>
+  <GroupCount>1</GroupCount>
+  <DriverName>红外解码</DriverName>
+  <FileName>SCDriver_IR_Decode</FileName>
+  <Driver_Exp>红外通信解码驱动说明：
+该驱动基于NEC协议，红外接收探头（如1838B）管脚需选择有外部中断的IO
+解码可得 客户码（16位）+数据码（8位）+数据码反码（8位）+重复码（8位）
+</Driver_Exp>
+  <DB_FilePath>SCDriver_IR_Decode\DB\SCDriver_IR_Decode.db</DB_FilePath>
+  <C_FilePath>SCDriver_IR_Decode\C</C_FilePath>
+  <H_FilePath>SCDriver_IR_Decode\H</H_FilePath>
+  <Lib_FilePath>
+  </Lib_FilePath>
+  <MCU_CanBeUsed></MCU_CanBeUsed>
+  <MCU_ICResource>INT0?/INT1?/INT2?</MCU_ICResource>
+  <Group>
+    <TextBox_IOCount1>1</TextBox_IOCount1>
+    <TextBox_GroupName1>红外接收头</TextBox_GroupName1>
+    <GpioSet1>
+      <未选择>0XFF00</未选择>
+      <P00>0x0001</P00>
+      <P01>0x0002</P01>
+      <P02>0x0004</P02>
+      <P03>0x0008</P03>
+      <P04>0x0010</P04>
+      <P05>0x0020</P05>
+      <P06>0x0040</P06>
+      <P07>0x0080</P07>
+      <P10>0x0101</P10>
+      <P11>0x0102</P11>
+      <P12>0x0104</P12>
+      <P13>0x0108</P13>
+      <P14>0x0110</P14>
+      <P15>0x0120</P15>
+      <P16>0x0140</P16>
+      <P17>0x0180</P17>
+      <P20>0x0201</P20>
+      <P21>0x0202</P21>
+      <P22>0x0204</P22>
+      <P23>0x0208</P23>
+      <P24>0x0210</P24>
+      <P25>0x0220</P25>
+      <P26>0x0240</P26>
+      <P27>0x0280</P27>
+      <P30>0x0301</P30>
+      <P31>0x0302</P31>
+      <P32>0x0304</P32>
+      <P33>0x0308</P33>
+      <P34>0x0310</P34>
+      <P35>0x0320</P35>
+      <P36>0x0340</P36>
+      <P37>0x0380</P37>
+      <P40>0x0401</P40>
+      <P41>0x0402</P41>
+      <P42>0x0404</P42>
+      <P43>0x0408</P43>
+      <P44>0x0410</P44>
+      <P45>0x0420</P45>
+      <P46>0x0440</P46>
+      <P47>0x0480</P47>
+      <P50>0x0501</P50>
+      <P51>0x0502</P51>
+      <P52>0x0504</P52>
+      <P53>0x0508</P53>
+      <P54>0x0510</P54>
+      <P55>0x0520</P55>
+      <P56>0x0540</P56>
+      <P57>0x0580</P57>
+    </GpioSet1>
+    <PictureFileName1>红外接收头.png</PictureFileName1>
+    <PinInf1>
+      <myPin1>红外引脚</myPin1>
+      <myPinDef1>SCDriver_IR_Pin</myPinDef1>
+    </PinInf1>
+    <GroupInterSetCount1>0</GroupInterSetCount1>
+    <GroupInterSet1 />
+  </Group>
+  <InterSetCount>1</InterSetCount>
+  <InterSet>
+    <OptionName1>红外接收口</OptionName1>
+    <Option1>SCD_IR_DECODE_INIT</Option1>
+    <Explain1>选择红外接收使用到的中断脚，该设置项需要与中断脚一致</Explain1>
+    <DataType1>INT</DataType1>
+    <SelectName1>未选择
+INT00
+INT01
+INT02
+INT03
+INT04
+INT05
+INT06
+INT07
+INT10
+INT11
+INT12
+INT13
+INT14
+INT15
+INT16
+INT17
+INT20
+INT21
+INT22
+INT23
+INT24
+INT25
+INT26
+INT27</SelectName1>
+    <SelectValue1>0xFF00
+0x0001
+0x0002
+0x0004
+0x0008
+0x0010
+0x0020
+0x0040
+0x0080
+0x0101
+0x0102
+0x0104
+0x0108
+0x0110
+0x0120
+0x0140
+0x0180
+0x0201
+0x0202
+0x0204
+0x0208
+0x0210
+0x0220
+0x0240
+0x0280</SelectValue1>
+  </InterSet>
+</Driver>

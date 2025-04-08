@@ -1,0 +1,134 @@
+Added Component: Designator=C12(C 0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C13(C 0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C14(C 0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=E2(CAP 2.5*6.3*11.2 - BK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "直插电解电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=E3(CAP 2.5*6.3*11.2 - BK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "直插电解电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=JP3(XH2.54-5P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "5P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=JP4(XH2.54-5P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "5P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=L1(CD32)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "小功率贴片电感"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=POWER_IN1(POWER_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R17(R 0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R18(C 0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R19(C 0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=S1(SS11-BBIWJ-R20-R)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "波动开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=U4(ACTo12V0.5A)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U5(ME3116AM6G)
+Add component. Clean all parameters for all variants
+Added Component: Designator=VD1(SMA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "肖特基二极管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "属性"; Value = "40V/1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC12_1 Pin=C12-1
+Added Pin To Net: NetName=NetC12_2 Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=3.3V Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=3.3V Pin=C14-2
+Added Pin To Net: NetName=12V Pin=E2-1
+Added Pin To Net: NetName=GND Pin=E2-2
+Added Pin To Net: NetName=12V Pin=E3-1
+Added Pin To Net: NetName=GND Pin=E3-2
+Added Pin To Net: NetName=12V Pin=JP3-1
+Added Pin To Net: NetName=GND Pin=JP3-2
+Added Pin To Net: NetName=DIR Pin=JP3-3
+Added Pin To Net: NetName=PWM Pin=JP3-4
+Added Pin To Net: NetName=FG Pin=JP3-5
+Added Pin To Net: NetName=3.3V Pin=JP4-1
+Added Pin To Net: NetName=GND Pin=JP4-2
+Added Pin To Net: NetName=DIR Pin=JP4-3
+Added Pin To Net: NetName=PWM Pin=JP4-4
+Added Pin To Net: NetName=FG Pin=JP4-5
+Added Pin To Net: NetName=NetC12_2 Pin=L1-1
+Added Pin To Net: NetName=3.3V Pin=L1-2
+Added Pin To Net: NetName=L_IN Pin=POWER_IN1-1
+Added Pin To Net: NetName=EGND Pin=POWER_IN1-2
+Added Pin To Net: NetName=N Pin=POWER_IN1-3
+Added Pin To Net: NetName=NetR17_1 Pin=R17-1
+Added Pin To Net: NetName=12V Pin=R17-2
+Added Pin To Net: NetName=NetR18_1 Pin=R18-1
+Added Pin To Net: NetName=3.3V Pin=R18-2
+Added Pin To Net: NetName=GND Pin=R19-1
+Added Pin To Net: NetName=NetR18_1 Pin=R19-2
+Added Pin To Net: NetName=L_IN Pin=S1-2
+Added Pin To Net: NetName=L Pin=S1-3
+Added Pin To Net: NetName=L Pin=U4-1
+Added Pin To Net: NetName=N Pin=U4-2
+Added Pin To Net: NetName=12V Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Pin To Net: NetName=NetC12_1 Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U5-2
+Added Pin To Net: NetName=NetR18_1 Pin=U5-3
+Added Pin To Net: NetName=NetR17_1 Pin=U5-4
+Added Pin To Net: NetName=12V Pin=U5-5
+Added Pin To Net: NetName=NetC12_2 Pin=U5-6
+Added Pin To Net: NetName=GND Pin=VD1-1
+Added Pin To Net: NetName=NetC12_2 Pin=VD1-2
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component C12 0.1uF
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component C13 0.1uF
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component C14 10uF/16V
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component E2 220uF/25V
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component E3 220uF/25V
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component JP3 HDR-1X5
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component JP4 HDR-1X5
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component L1 4.7uH
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component POWER_IN1 AC_Power
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component R17 100K
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component R18 24K
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component R19 7.5K
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component S1 SS-12F23
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component U4 AC_To_12V
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component U5 ME3116AM6G
+Added Member To Class: ClassName=MS3100_DRV_V0.1 Member=Component VD1 SS14
+Added Room: Name=MS3100_DRV_V0.1

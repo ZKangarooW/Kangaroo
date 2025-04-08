@@ -1,0 +1,17 @@
+[PROJECT]
+Version=2.03.22
+Compile=1
+Device=CMS89F616
+OptValue=-local,-asmfile,+asm,-speed,+space,-debug
+RuntimeValue=
+WarningValue=-9
+config=2FFF,2FB7,3FFF,3FFF,3FFF,3A5A,3FFF,3FFF,3FFF,3FFF,3FFF,3FFF,3FFF,3FFF,3FFF,3FFF,
+[FILE]
+SourceFile=main.c
+SourceFile=iic_soft.c
+SourceFile=REL_Sender.c
+HeadFile=Touch_Kscan_Library.h
+HeadFile=TouchKeyConst.h
+HeadFile=iic_soft.h
+HeadFile=REL_Sender.h
+LibraryFile=Touch_Kscan_Library.lpp

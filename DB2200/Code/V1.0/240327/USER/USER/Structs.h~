@@ -1,0 +1,12 @@
+#ifndef __Structs_H__
+#define __Structs_H__
+
+#include "stm32f0xx_hal.h"
+
+typedef struct
+{
+	uint8_t Init_ok;//系统初始化是否完成，完成为1
+}_sys_;
+extern _sys_ sys;//系统初始化检测
+
+#endif

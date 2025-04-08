@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=LED_ADJ Pin=U1-16
+Removed Pin From Net: NetName=Beep Pin=U1-39
+Added Pin To Net: NetName=LED_ADJ Pin=U1-40
+Added Pin To Net: NetName=Beep Pin=U1-41
+Added Room: Name=MS3100_MCU_V0.1

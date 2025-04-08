@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": "build/${workspaceFolderBasename}.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "jlink",
+            "interface": "swd",
+            "device": "STM32F030C8",
+            "configFiles": [
+                "interface/jlink.cfg",
+                "-c transport select swd",
+                "target/stm32f0x.cfg"
+            ],
+            "svdFile": "./STM32F0xx.svd",
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            },
+            "searchDir": [],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none"
+        }
+    ],
+    "version": "0.2.0"
+}

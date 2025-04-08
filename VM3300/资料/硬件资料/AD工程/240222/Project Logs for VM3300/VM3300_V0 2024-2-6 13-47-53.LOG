@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=FG Pin=U1-40
+Removed Pin From Net: NetName=MO Pin=U1-46
+Change Component Description : Designator=U1 Old Description=STM32F030采用ARM Cortex内核，运算速度高达48 MHz。STM32F030是STM32系列中价格最低的产品，具有全套外设，例如高速12位ADC、先进且灵活的定时器、日历RTC和通 New Description=STM32F030采用ARM Cortex内核，运算速度高达48 MHz。STM32F030是STM32系列中价格最低的产品，具有全套外设，例如高速12位ADC、先进且灵活的定时器、日历RTC和通信接口（例如 I?C、USART和SPI）。
+Change Component Description : Designator=U4 Old Description=TM1650是一种带键盘扫描接口的LED（发光二极管显示器）驱动控制专用IC,内部集成有MCU
+数字接口、数据锁存器、LE New Description=TM1650是一种带键盘扫描接口的LED（发光二极管显示器）驱动控制专用IC,内部集成有MCU
+数字接口、数据锁存器、LED驱动、键盘扫描等电路。
+Change component parameters: Designator = "SMG1"; Footprint = "SMG 0.28-4P_B"; UniqueID = "\UAHRFSTH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "0.28寸4位共阳"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD1"; Footprint = "SMA"; UniqueID = "\GTUOAXBE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "肖特基二极管"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "属性"; Value = "40V/3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD2"; Footprint = "SMA"; UniqueID = "\RCGEULPF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "BOM名称"; Value = "肖特基二极管"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "属性"; Value = "40V/3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MO Pin=U1-40
+Added Pin To Net: NetName=FG Pin=U1-46
+Added Room: Name=VM3300_V0.1

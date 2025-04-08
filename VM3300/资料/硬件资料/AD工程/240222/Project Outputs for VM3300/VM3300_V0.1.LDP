@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\JOANLAB\VM3300\资料\硬件资料\AD工程\240222\VM3300_V0.1.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=vm3300_v0.1-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=vm3300_v0.1-slotholes.txt|DrillLayers=gtl,gbl

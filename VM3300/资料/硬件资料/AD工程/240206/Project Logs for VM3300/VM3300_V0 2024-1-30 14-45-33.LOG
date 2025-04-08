@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=SEG2 Pin=U4-15
+Removed Pin From Net: NetName=SEG6 Pin=U4-16
+Added Pin To Net: NetName=SEG6 Pin=U4-15
+Added Pin To Net: NetName=SEG2 Pin=U4-16
+Added Room: Name=VM3300_V0.1

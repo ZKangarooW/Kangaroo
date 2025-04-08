@@ -1,0 +1,10 @@
+DRC Rules Export File for PCB: D:\Joanlab\DBS3100\资料\硬件资料\霍尔板\DBS3100霍尔_V0.5.PCBDOC
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=1.00
+RuleKind=Width|RuleName=Width_POWER|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Width_GND|Scope=Board|Minimum=1.00
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=6.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=30.00
+RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=0.00
+RuleKind=Clearance|RuleName=Clearance_3|Scope=Board|Minimum=7.00

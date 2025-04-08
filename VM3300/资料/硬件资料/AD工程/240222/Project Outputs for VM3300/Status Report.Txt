@@ -1,0 +1,10 @@
+Output: Test Point Report
+Type  : Test Points
+From  : Project [VM3300.PrjPCB]
+   Generated File[Fabrication Testpoint Report for VM3300_V0.1.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:58:13 On 2024/2/21

@@ -1,0 +1,12 @@
+[PROJECT]
+Version=203
+Compile=0
+Device=CMS89FT628
+OptValue=-debug,-local,-asmfile,+asm,-speed,+space
+RuntimeValue=
+WarningValue=-9
+config=F7FF,FFBB,FFFF,FFFF,FFFF,2915,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,FFFF,
+[FILE]
+SourceFile=USER_MAIN_PROGRAM.asm
+HeadFile=Touch_Kscan_Library.h
+LibraryFile=Touch_Kscan_Library.lib
