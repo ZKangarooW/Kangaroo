@@ -1,0 +1,14 @@
+h
+device STM32F030C8
+speed 4000
+erase
+sleep 500
+loadfile build/HS5100.hex
+verify
+sleep 500
+r
+sleep 100
+h
+r
+g
+qc
