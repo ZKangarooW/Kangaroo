@@ -24,7 +24,7 @@ void Param_Reset(void)
         Param.P_Param[i][2] = 1800;// 时间
     }
     
-    Param.type =0;//0是加热制冷，1是单加热
+    Param.type =1;//0是加热制冷，1是单加热
     
     if(Param.type)//单加热
     {
