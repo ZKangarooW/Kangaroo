@@ -48,7 +48,7 @@ void TMR0_Config(void)
 	*/	
 	TMR_ConfigTimerPeriod(TMR0, 256-200, 256-200);// 200*0.25us = 50us,递增计数
 
-	/*
+	/* 
 	(4)开启中断
 	*/
 	TMR_EnableOverflowInt(TMR0);
