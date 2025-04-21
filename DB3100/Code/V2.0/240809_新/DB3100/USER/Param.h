@@ -5,7 +5,7 @@
 
 /**********宏定义************/
 #define FLASH_CHECK_START 0xAA
-#define FLASH_CHECK_END 0xCC
+#define FLASH_CHECK_END 0xDD
 
 /**********结构体************/
 struct _Save_Param_
