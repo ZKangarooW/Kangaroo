@@ -182,10 +182,10 @@ void Read_Temp(float dT)
     TL431_V = (TL431_AD / Vref_AD) * Vref;//计算TL431的电压值
     
     Filter_PT1 = Filter_ADC(1);//读取并滤波PT1000的ADC值外部
-    PT_VALUE_1_TEMP = Filter_ADC_EMA(Filter_PT1,1);//计算阻值外部
+    PT_VALUE_1_TEMP = Filter_ADC_EMA(Filter_PT1,1) * 1.01011122;//计算阻值外部
     
     Filter_PT2 = Filter_ADC(0);//读取并滤波PT1000的ADC值台面
-    PT_VALUE_2_TEMP = Filter_ADC_EMA(Filter_PT2,0);//计算阻值台面
+    PT_VALUE_2_TEMP = Filter_ADC_EMA(Filter_PT2,0) * 1.01011122;//计算阻值台面
     
 	if(T >= 1.0f)
 	{    

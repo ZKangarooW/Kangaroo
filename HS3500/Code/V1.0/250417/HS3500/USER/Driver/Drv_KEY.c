@@ -242,7 +242,7 @@ void Key_Scan(float dT)
 		}
 	}
     
-    if(HAL_GPIO_ReadPin(Key_POR_GPIO_Port,Key_POR_Pin) == KEY_DOWN)//按下按键（实际上个样板是反的，现在的DOWN是要求潘工修改后的）
+    if(HAL_GPIO_ReadPin(Key_POR_GPIO_Port,Key_POR_Pin) == GPIO_PIN_SET)//按下按键（实际上个样板是反的，现在的DOWN是要求潘工修改后的）
 	{	
 		sys.Display = 1;
         /*推出设置界面*/

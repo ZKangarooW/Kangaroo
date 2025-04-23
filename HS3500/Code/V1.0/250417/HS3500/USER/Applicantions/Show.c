@@ -2751,12 +2751,6 @@ void Deal_Temp(float dT)
 			{
 				Temp.ADDMode = 3;//进入稳定模式
 			}
-			
-			if((ABS(Temp.Display_Rel - Temp.Rel) > (val + 50))&&(Temp.Rel < 2800 && Temp.Ctrl<=2800))
-			{
-				Temp.ADDMode = 0;//进入稳定模式 
-				Temp.Display_Rel = Temp.Rel;//显示实际温度
-			}
 		}
 		
 		else if(Temp.ADDMode==2)//在进入降温模式下
@@ -2851,12 +2845,6 @@ void Deal_Temp(float dT)
                 {
                     Temp.ADDMode = 3;//进入稳定模式
                 }
-                
-                if((ABS(Temp.Display_Rel - Temp.Rel) > (val + 50))&&(Temp.Rel < 2800 && Temp.Ctrl<=2800))
-                {
-                    Temp.ADDMode = 0;//进入稳定模式 
-                    Temp.Display_Rel = Temp.Rel;//显示实际温度
-                }
             }
 		}
             
@@ -2880,17 +2868,46 @@ void Deal_Temp(float dT)
         if(T > 2.0f)
         {
             if(Temp.Rel < Temp.Display_Rel)
-                Temp.Display_Rel -= 10;//显示当前温度
+            {
+                if(Temp.Display_Rel > 1000)
+                {
+                    Temp.Display_Rel -= 10;//显示当前温度
+                }
+                else
+                {
+                    Temp.Display_Rel --;//显示当前温度
+                }
+            }
             else if(Temp.Rel > Temp.Display_Rel)
-                Temp.Display_Rel += 10;//显示当前温度   
-            else
+            {
+                if(Temp.Display_Rel > 1000)
+                {
+                    Temp.Display_Rel -= 10;//显示当前温度
+                }
+                else
+                {
+                    Temp.Display_Rel --;//显示当前温度
+                }
+            }
+            else if(Temp.Display_Rel>1000 && (ABS(Temp.Display_Rel - Temp.Rel) < 10))
+            {
                 sys.Run_Status = 0;
+            }
+            else
+            {
+                sys.Run_Status = 0;
+            }
             T = 0;
         }
         if((ABS(Temp.Display_Rel - Temp.Rel) > 90)&&(Temp.Rel < 2800 && Temp.Ctrl<=2800))
         {
             sys.Run_Status = 0;
         }
+    }
+    
+    else
+    {
+        Temp.Display_Rel = Temp.Rel;//显示实际温度
     }
 }
 
