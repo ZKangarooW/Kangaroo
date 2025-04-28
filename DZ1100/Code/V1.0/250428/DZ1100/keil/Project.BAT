@@ -1,0 +1,27 @@
+SET C51INC=D:\DanPianJi\Keil_v5\C51\Inc;D:\DanPianJi\Keil_v5\C51\Inc\CMS80F731x
+SET C51LIB=D:\DanPianJi\Keil_v5\C51\Lib
+SET CPU_TYPE=CMS80F731x
+SET CPU_VENDOR=Cmsemicon
+SET UV2_TARGET=Project
+SET CPU_XTAL=0x02DC6C00
+"D:\DanPianJi\Keil_v5\C51\BIN\AX51.EXE" @".\Objects\STARTUP_CMS80F731x._ia"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\gpio.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\system.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\timer.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\uart.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\adc.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\buzzer.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\crc.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\extint.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\flash.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\i2c.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\spi.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\lse.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\pwm.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\wdt.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\wut.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\led.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\isr.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\C51.EXE" @".\Objects\main.__i"
+"D:\DanPianJi\Keil_v5\C51\BIN\LX51.EXE" @".\Objects\Project.lnp"
+"D:\DanPianJi\Keil_v5\C51\BIN\OHX51.EXE" ".\Objects\Project" HEX
