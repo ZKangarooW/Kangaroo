@@ -1,0 +1,9 @@
+h
+device STM32F030C8
+si 1
+speed 10000
+loadfile build/HS3500.hex
+r
+g
+qc
+
