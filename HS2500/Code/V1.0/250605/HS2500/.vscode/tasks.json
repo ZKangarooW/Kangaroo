@@ -1,0 +1,59 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "all",
+                "-j4"
+            ]
+        },
+        {
+            "label": "Clean",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["clean"]
+
+        },
+         // JLINK (FLASH + ERASE)
+		{
+            "label": "JFlash",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "-j4",
+                "jflash"
+            ]
+        },
+        {
+            "label": "JErase",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["jerase"]
+        },
+        // DAPLink (FLASH + ERASE)
+        {
+            "label": "DFlash",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "-j4",
+                "dflash"
+            ]
+        },
+        {
+            "label": "DErase",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["derase"]
+        }
+    ]
+}
