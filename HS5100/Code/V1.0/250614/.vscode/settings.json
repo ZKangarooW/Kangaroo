@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "drv_ht162x.h": "c",
+        "drv_beep.h": "c",
+        "drv_key.h": "c",
+        "drv_ec11a.h": "c",
+        "systick.h": "c",
+        "setval.h": "c",
+        "ctrl_scheduler.h": "c",
+        "include.h": "c",
+        "system_init.h": "c"
+    }
+}
