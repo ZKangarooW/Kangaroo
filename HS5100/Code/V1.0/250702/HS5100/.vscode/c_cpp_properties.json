@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/USER",
+                "${workspaceFolder}/USER/Applicantions",
+                "${workspaceFolder}/USER/Ctrl", 
+                "${workspaceFolder}/USER/Driver",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Core/Inc",
+                "${workspaceFolder}/Drivers/STM32F0xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F0xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F030x8"
+            ],
+            "compilerPath": "D:/DanPianJi/ARM_Pack/gcc/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compilerArgs": [
+                "-fexec-charset=GBK"
+            ]
+        }
+    ],
+    "version": 4
+}

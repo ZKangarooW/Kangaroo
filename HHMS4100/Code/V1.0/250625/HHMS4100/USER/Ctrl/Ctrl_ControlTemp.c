@@ -10,8 +10,6 @@ _PID_Val_ Temp_Out_Val[Motor_Num];
 
 /**********局部变量声明******/
 uint8_t Out_Enable[Motor_Num];//积分运算的开关
-float adc_val[Motor_Num],ctrl_val[Motor_Num];
-uint8_t water_type[Motor_Num],step[Motor_Num];//判断是油还是水0：水，1油
 uint8_t Temp_type[Motor_Num];//温度类型
 int Heat[Motor_Num];//各个加热盘的pwm值
 
@@ -192,9 +190,7 @@ void Temp_Control(float dT)
             }
             else
             {
-                water_type[i] = 0;
                 Heat[i] = 0;//pwm不输出
-                step[i] = 0;
             }
         }
         else if(Work_Num[i].Run_Status && PT_VALUE_1_TEMP[i] < 2200)//启动系统控制水温
@@ -210,16 +206,12 @@ void Temp_Control(float dT)
             }
             else
             {
-                water_type[i] = 0;
                 Heat[i] = 0;//pwm不输出
-                step[i] = 0;
             }
         }
         else
         {
-            water_type[i] = 0;
             Heat[i] = 0;//pwm不输出
-            step[i] = 0;
         }
     }
     Heat_Out(Heat);
