@@ -174,7 +174,8 @@ void Key_Scan(float dT)
             }
             else if(UPPress_Time == 0)
             {
-                Beep_Flash = 2;//无效按键时蜂鸣器“滴滴”
+				if(DownPress_Time < 2.0f)
+					Beep_Flash = 2;//无效按键时蜂鸣器“滴滴”
             }
 			Key_Flag2 = 0;//按键事件结束，等待下一次按下
 			if (DownPress_Time > 5.0f)
@@ -268,9 +269,10 @@ void Key_Scan(float dT)
 				Key_Status = 2.0f;//操作时常亮2S
 				Twinkle_Time = 6.0f;//闪烁时间6S
             }
-            else if(UPPress_Time == 0)
+            else if(DownPress_Time == 0)
             {
-                Beep_Flash = 2;//无效按键时蜂鸣器“滴滴”
+				if(UPPress_Time < 2.0f)
+					Beep_Flash = 2;//无效按键时蜂鸣器“滴滴”
             }
 			Key_Flag3 = 0;//按键事件结束，等待下一次按下
 			if (UPPress_Time > 5.0f)
