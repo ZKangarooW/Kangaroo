@@ -312,6 +312,7 @@ void Key_Scan(float dT)
                 {
                     sys.Run_Status = 0;
                     sys.SetMode_Option = 0;
+					Time.Rel = Time.Set;
                     Temp.ADDMode = 0;
                     SetOK_Flag = 1;
                 }
