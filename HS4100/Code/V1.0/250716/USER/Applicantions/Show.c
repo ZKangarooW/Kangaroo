@@ -46,13 +46,25 @@ static void Icn_Twinkle(float dT)
 				TempIcn_ShowFlag = ~TempIcn_ShowFlag;//温度图标闪烁;
 			else
 				TempIcn_ShowFlag = 0;
-            
-			if(Time.Rel && (!Temp.Ctrl || TempIcn_ShowFlag != TimeIcn_ShowFlag) && (Time.Rel != Time.Ctrl))
-				TimeIcn_ShowFlag = ~TimeIcn_ShowFlag;//定时图标闪烁;
-            else
-            {
-                TimeIcn_ShowFlag = 0;
-            }
+
+            if(sys.DownTime_Type == C1)
+			{
+				if(Time.Rel && (!Temp.Ctrl || TempIcn_ShowFlag != TimeIcn_ShowFlag) && (Time.Rel != Time.Ctrl) && Temp.ADDMode == 3 )
+					TimeIcn_ShowFlag = ~TimeIcn_ShowFlag;//定时图标闪烁; 
+				else
+				{
+					TimeIcn_ShowFlag = 0;
+				}
+			}
+			else
+			{
+				if(Time.Rel && (!Temp.Ctrl || TempIcn_ShowFlag != TimeIcn_ShowFlag) && (Time.Rel != Time.Ctrl))
+					TimeIcn_ShowFlag = ~TimeIcn_ShowFlag;//定时图标闪烁;
+            	else
+            	{
+                	TimeIcn_ShowFlag = 0;
+            	}
+			}
             
 			T = 0;
 		}

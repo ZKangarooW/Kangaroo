@@ -4,7 +4,7 @@
 #include "stm32f0xx_hal.h"
 
 #define FLASH_CHECK_START 0xAA
-#define FLASH_CHECK_END 0xC1
+#define FLASH_CHECK_END 0xC2
 
 #define Speed_MAX 1500//转速最大1500 50-1500
 #define Speed_MIN 50//转速最低 50
