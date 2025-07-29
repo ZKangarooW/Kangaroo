@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "ctrl_scheduler.h": "c",
+        "drv_beep.h": "c",
+        "systick.h": "c",
+        "drv_ht162x.h": "c",
+        "drv_ec11a.h": "c",
+        "show.h": "c",
+        "system_init.h": "c",
+        "structs.h": "c"
+    }
+}
