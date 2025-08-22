@@ -21,7 +21,7 @@ void Param_Reset(void)
 	Param.Time = 0;//时间常动
     Param.DownTime_Type = C1;//默认为C1
 	Param.HeatMode_Type = A1;//默认为A1
-	Param.Correct = 994.0f;//温度系数
+	Param.Correct = 1000.0f;//温度系数
 	Param.Flash_Check_End  = FLASH_CHECK_END;
 }
 

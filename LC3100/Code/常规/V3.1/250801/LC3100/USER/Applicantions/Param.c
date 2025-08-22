@@ -21,7 +21,7 @@ void Param_Reset(void)
 		Param.P_Param[i][1] = 2000;//转速
 		Param.P_Param[i][2] = 500;//安全温度
 		Param.P_Param[i][3] = 100;//离心率
-		Param.P_Param[0][4] = 6;//离心率模式  1：常规  6：96孔板
+		Param.P_Param[0][4] = 1;//离心率模式  1：常规  6：96孔板
 	}
 	Param.Flash_Check_End  = FLASH_CHECK_END;
 }

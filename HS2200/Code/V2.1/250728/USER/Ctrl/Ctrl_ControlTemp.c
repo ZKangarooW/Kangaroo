@@ -142,15 +142,11 @@ static void Outside_Ctrl(float dT, int32_t Ctrl_temp)
 	{
 		if (Temp.Outside < Ctrl_temp - 150)//达到目标温度-15℃前全速加热
 		{
-			Mesa_Ctrl(dT, Ctrl_temp*2.5f);
+			Mesa_Ctrl(dT, Ctrl_temp*3.1f);
 		}
 		else if (Temp.Outside < Ctrl_temp - 100)//达到目标温度-10℃前全速加热
 		{
-			Mesa_Ctrl(dT, Ctrl_temp*2.3f);
-		}
-		else if (Temp.Outside < Ctrl_temp - 40)//达到目标温度-10℃前全速加热
-		{
-			Mesa_Ctrl(dT, Ctrl_temp*1.9f);
+			Mesa_Ctrl(dT, Ctrl_temp*2.8f);
 		}
 		else//PID控制
 		{//设定加热周期为1000ms，1000分之PID_Para.pid_result毫秒开加热器
@@ -159,16 +155,16 @@ static void Outside_Ctrl(float dT, int32_t Ctrl_temp)
 				AltPID_Calculation(dT, Ctrl_temp, Temp.Outside, &Temp_Out_Arg, &Temp_Out_Val, 2500, Ctrl_temp*2.5f);
 				if(Temp_Out_Val.Out < 0)
 					Temp_Out_Val.Out = 0;
-				if(Temp_Out_Val.Out > Ctrl_temp * 2.5f)
-					Temp_Out_Val.Out = Ctrl_temp * 2.5f;
+				if(Temp_Out_Val.Out > Ctrl_temp * 3.1f)
+					Temp_Out_Val.Out = Ctrl_temp * 3.1f;
 			}
 			else
 			{
 				AltPID_Calculation(dT, Ctrl_temp, Temp.Outside, &Temp_Out_Arg, &Temp_Out_Val, 2500, Ctrl_temp*1.3);
 				if(Temp_Out_Val.Out < 0)
 					Temp_Out_Val.Out = 0;
-				if(Temp_Out_Val.Out > Ctrl_temp * 1.3f)
-					Temp_Out_Val.Out = Ctrl_temp * 1.3f;
+				if(Temp_Out_Val.Out > Ctrl_temp * 1.5f)
+					Temp_Out_Val.Out = Ctrl_temp * 1.5f;
 			}
 			
 			if (Temp.Outside >= Ctrl_temp)//超出设置值1℃时全关

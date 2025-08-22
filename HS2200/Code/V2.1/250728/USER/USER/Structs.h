@@ -4,7 +4,7 @@
 #include "stm32f0xx_hal.h"
 
 #define FLASH_CHECK_START 0xAA
-#define FLASH_CHECK_END 0xA3
+#define FLASH_CHECK_END 0xA6
 
 #define Key_Type 1//0:°´¼ü¿î5pro 1£ºÐýÅ¥¿î5c
 

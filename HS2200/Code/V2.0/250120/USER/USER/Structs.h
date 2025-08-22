@@ -6,7 +6,7 @@
 #define FLASH_CHECK_START 0xAA
 #define FLASH_CHECK_END 0xA4
 
-#define Key_Type 0//0:按键款5pro 1：旋钮款5c
+#define Key_Type 1//0:按键款5pro 1：旋钮款5c
 
 #define Speed_MAX 1500//转速最大1500
 
