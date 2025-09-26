@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="STM32F030C8" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="C:\Users\JOANLAB\Desktop\DB3100_1\Code\220712\DB3100\MDK-ARM\DB3100\123.jscope\unspecified" />
+            <ElfFile Name="C:\Users\JOANLAB\Desktop\DB3100_1\Code\220712\DB3100\MDK-ARM\DB3100\DB3100.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="50000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="val" Address="0x2000002C" Type="ushort" TypeID="7" Size="2" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="2344" YMaxSampled="2373" YAvgSampled="2355" Offset="4" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="..\USER\Ntc.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="adc_val" Address="0x200000BE" Type="ushort" TypeID="7" Size="2" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="2352" YMaxSampled="2352" YAvgSampled="2352" Offset="6" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="2000" MaxValue="4000" File="..\USER\TempControl.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

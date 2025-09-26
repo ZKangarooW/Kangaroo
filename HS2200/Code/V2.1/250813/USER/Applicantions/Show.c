@@ -634,7 +634,6 @@ void Deal_Speed(float dT)
  * 功    能：温度显示处理
 *****************************************************************
 */
-
 void Deal_Temp(float dT)
 {
     static float T;
